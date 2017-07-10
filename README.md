@@ -1,13 +1,4 @@
 # BITDToken ICO contract
-
-## Disclaimer
-
-These smart contracts are provided without any implied or expressed warranty.
-
-I take no responsibility for your implementation decisions and any security problem you might experience.
-
-These contracts should be thoroughly audited by one or more independant third parties before being used to store or transmit any value.
-
 ## Testing
 
 These contracts have been developed using the Truffle framework:  
