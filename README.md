@@ -20,50 +20,44 @@ To test, you can:
 
 Expected output from test is:
 ```
+Adams-MBP:BITDToken adamdossa$ truffle test
 Using network 'development'.
 
-Compiling ./contracts/Migrations.sol...
 Compiling ./contracts/BITDToken.sol...
+Compiling ./contracts/Migrations.sol...
 Compiling ./contracts/test/BITDTokenMock.sol...
 Compiling ./installed_contracts/zeppelin/contracts/SafeMath.sol...
-Compiling ./installed_contracts/zeppelin/contracts/lifecycle/Destructible.sol...
 Compiling ./installed_contracts/zeppelin/contracts/ownership/Ownable.sol...
 Compiling ./installed_contracts/zeppelin/contracts/token/BasicToken.sol...
 Compiling ./installed_contracts/zeppelin/contracts/token/ERC20.sol...
 Compiling ./installed_contracts/zeppelin/contracts/token/ERC20Basic.sol...
-Compiling ./installed_contracts/zeppelin/contracts/token/LimitedTransferToken.sol...
 Compiling ./installed_contracts/zeppelin/contracts/token/StandardToken.sol...
-
-Compilation warnings encountered:
-
-/Users/adamdossa/Development/Ethereum/BITDToken/installed_contracts/zeppelin/contracts/token/LimitedTransferToken.sol:46:47: : Unused local variable
-  function transferableTokens(address holder, uint64 time) constant public returns (uint256) {
-                                              ^---------^
-,/Users/adamdossa/Development/Ethereum/BITDToken/contracts/BITDToken.sol:51:47: : Unused local variable
-  function transferableTokens(address holder, uint64 time) constant public returns (uint256) {
-                                              ^---------^
-
-Coinbase Account:  0xadbb105458c21afea255a68d2389b3c0fac4196d
+Coinbase Account:  0x0249f55a1294105933bf8fd88160bb022440dd6a
 
 
   Contract: BITDToken
-Token Address:  0x5c55117ad5b50791bb02244e0bf77fca1162695f
-    ✓ 0. initialize contract (132ms)
+Token Address:  0x2545df9f0ec008d9ef38b30890b0f6eae65901c1
+    ✓ 0. initialize contract (297ms)
 
   Contract: BITDToken
-    ✓ 1. start and end sale (263ms)
+    ✓ 1. start and end sale (434ms)
 
   Contract: BITDToken
-    ✓ 2. checks amounts and bonuses (423ms)
+    ✓ 2. checks amounts and bonuses (460ms)
 
   Contract: BITDToken
-    ✓ 3. check transfers (324ms)
+    ✓ 3. check transfers (505ms)
 
   Contract: BITDToken
-    ✓ 4. allocate owner tokens (161ms)
+    ✓ 4. allocate owner tokens (293ms)
+
+  Contract: BITDToken
+    ✓ 5. check limits (297ms)
 
 
-  5 passing (1s)
+  6 passing (2s)
+
+
 ```
 
 ## Deployment
