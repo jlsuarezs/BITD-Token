@@ -1,0 +1,39 @@
+{
+  "contract_name": "SafeMath",
+  "abi": [],
+  "unlinked_binary": "0x60606040523415600b57fe5b5b60338060196000396000f30060606040525bfe00a165627a7a72305820577ee342f28ef7be95a9fa4f1e6afb4fcf4d464127cd879f81494205fbfc66470029",
+  "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0x1159ed7e16fc8ad2474bc943a2dae6b0e12a86fe",
+      "updated_at": 1497609261190
+    },
+    "1497479320154": {
+      "events": {},
+      "links": {},
+      "address": "0xee60cb20d64d209f5af8e1800f759d3f743c07b9",
+      "updated_at": 1497480576865
+    },
+    "1497562593178": {
+      "events": {},
+      "links": {},
+      "address": "0xd370b8c38d78f659fa0db01b96382369820e2173",
+      "updated_at": 1497562596909
+    },
+    "1497614794544": {
+      "events": {},
+      "links": {},
+      "address": "0x4598221ea1da0e396688fc6bfcfb49de0fca07eb",
+      "updated_at": 1497619875082
+    },
+    "1498729889714": {
+      "events": {},
+      "links": {},
+      "address": "0x02789d3d003ec0f2d7527bfdfdb65e7c04fbc5f5",
+      "updated_at": 1498946226731
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1499545338338
+}
